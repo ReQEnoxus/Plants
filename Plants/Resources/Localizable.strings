@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  Plants
+
+  Created by Никита Афанасьев on 09.05.2024.
+  
+*/
+
+// MARK: - Auth
+
+"Auth.Email.title" = "Логин";
+"Auth.Email.placeholder" = "Введите E-mail...";
+"Auth.Password.title" = "Пароль";
+"Auth.Password.placeholder" = "Введите пароль...";
+"Auth.PasswordAgain.title" = "Подтверждение";
+"Auth.Password.placeholder" = "Подтвердите пароль...";
+"Auth.LoginButton.title" = "Войти";
+"Auth.RegisterButton.title" = "Зарегистрироваться";
+
+// MARK: - Scanner
+
+"Scanner.TakePhoto.title" = "Сделать фото";
+"Scanner.RetakePhoto.title" = "Переснять";
+"Scanner.Analyze.title" = "Проанализировать";
+"Scanner.Loading.message" = "Идет обработка.\nПодождите...";
+"Scanner.Result.title" = "Результат";
+"Scanner.Result.plantSpecies" = "Вид растения:\n%@";
+"Scanner.Result.plantDisease" = "Заболевание:\n%@";

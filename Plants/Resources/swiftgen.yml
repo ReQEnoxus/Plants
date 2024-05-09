@@ -1,0 +1,25 @@
+strings:
+  inputs: Localizable.strings
+  outputs:
+    templateName: structured-swift5
+    output: Generated/LocalizedStrings.swift
+
+xcassets:
+  inputs: Assets.xcassets
+  outputs:
+    templateName: swift5
+    output: Generated/Assets.swift
+    params:
+      enumName: Assets
+      
+json:
+  inputs: Animations/
+  outputs:
+    templatePath: SwiftgenTemplates/Lottie.stencil
+    output: Generated/Lottie.swift
+    
+fonts:
+  inputs: Fonts/
+  outputs:
+    templateName: swift5
+    output: Generated/Fonts.swift

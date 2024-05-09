@@ -10,9 +10,19 @@
 		733EFC8A2BECB378000AF4D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733EFC892BECB378000AF4D8 /* AppDelegate.swift */; };
 		733EFC8C2BECB378000AF4D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733EFC8B2BECB378000AF4D8 /* SceneDelegate.swift */; };
 		733EFC8E2BECB378000AF4D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733EFC8D2BECB378000AF4D8 /* ViewController.swift */; };
-		733EFC912BECB379000AF4D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733EFC8F2BECB379000AF4D8 /* Main.storyboard */; };
 		733EFC932BECB37A000AF4D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 733EFC922BECB37A000AF4D8 /* Assets.xcassets */; };
 		733EFC962BECB37A000AF4D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733EFC942BECB37A000AF4D8 /* LaunchScreen.storyboard */; };
+		733EFCA02BECB456000AF4D8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 733EFC9F2BECB456000AF4D8 /* Localizable.strings */; };
+		733EFCA32BECB8BC000AF4D8 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 733EFCA22BECB8BB000AF4D8 /* swiftgen.yml */; };
+		733EFCA62BECB9CE000AF4D8 /* Lottie.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 733EFCA52BECB9CE000AF4D8 /* Lottie.stencil */; };
+		733EFCA82BECB9F1000AF4D8 /* scan_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 733EFCA72BECB9F1000AF4D8 /* scan_animation.json */; };
+		733EFCAC2BECBA48000AF4D8 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733EFCA92BECBA48000AF4D8 /* Assets.swift */; };
+		733EFCAD2BECBA48000AF4D8 /* LocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733EFCAA2BECBA48000AF4D8 /* LocalizedStrings.swift */; };
+		733EFCAE2BECBA48000AF4D8 /* Lottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733EFCAB2BECBA48000AF4D8 /* Lottie.swift */; };
+		733EFCB12BECBB5B000AF4D8 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 733EFCB02BECBB5B000AF4D8 /* Lottie */; };
+		733EFCB42BECC225000AF4D8 /* Urbanist-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 733EFCB32BECC20E000AF4D8 /* Urbanist-VariableFont_wght.ttf */; };
+		733EFCB62BECC245000AF4D8 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733EFCB52BECC245000AF4D8 /* Fonts.swift */; };
+		733EFCB82BECC392000AF4D8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 733EFCB72BECC392000AF4D8 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +30,19 @@
 		733EFC892BECB378000AF4D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		733EFC8B2BECB378000AF4D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		733EFC8D2BECB378000AF4D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		733EFC902BECB379000AF4D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		733EFC922BECB37A000AF4D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		733EFC952BECB37A000AF4D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		733EFC972BECB37A000AF4D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		733EFC9F2BECB456000AF4D8 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		733EFCA22BECB8BB000AF4D8 /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		733EFCA52BECB9CE000AF4D8 /* Lottie.stencil */ = {isa = PBXFileReference; lastKnownFileType = text; path = Lottie.stencil; sourceTree = "<group>"; };
+		733EFCA72BECB9F1000AF4D8 /* scan_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scan_animation.json; sourceTree = "<group>"; };
+		733EFCA92BECBA48000AF4D8 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		733EFCAA2BECBA48000AF4D8 /* LocalizedStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedStrings.swift; sourceTree = "<group>"; };
+		733EFCAB2BECBA48000AF4D8 /* Lottie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lottie.swift; sourceTree = "<group>"; };
+		733EFCB32BECC20E000AF4D8 /* Urbanist-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		733EFCB52BECC245000AF4D8 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		733EFCB72BECC392000AF4D8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				733EFCB12BECBB5B000AF4D8 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				733EFC882BECB378000AF4D8 /* Plants */,
+				733EFCB72BECC392000AF4D8 /* .gitignore */,
 				733EFC872BECB378000AF4D8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,15 +77,63 @@
 		733EFC882BECB378000AF4D8 /* Plants */ = {
 			isa = PBXGroup;
 			children = (
+				733EFC9D2BECB43D000AF4D8 /* Resources */,
 				733EFC892BECB378000AF4D8 /* AppDelegate.swift */,
 				733EFC8B2BECB378000AF4D8 /* SceneDelegate.swift */,
 				733EFC8D2BECB378000AF4D8 /* ViewController.swift */,
-				733EFC8F2BECB379000AF4D8 /* Main.storyboard */,
-				733EFC922BECB37A000AF4D8 /* Assets.xcassets */,
 				733EFC942BECB37A000AF4D8 /* LaunchScreen.storyboard */,
 				733EFC972BECB37A000AF4D8 /* Info.plist */,
 			);
 			path = Plants;
+			sourceTree = "<group>";
+		};
+		733EFC9D2BECB43D000AF4D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				733EFCB22BECC205000AF4D8 /* Fonts */,
+				733EFCA42BECB9BC000AF4D8 /* SwiftgenTemplates */,
+				733EFCA12BECB7EB000AF4D8 /* Animations */,
+				733EFC922BECB37A000AF4D8 /* Assets.xcassets */,
+				733EFC9E2BECB446000AF4D8 /* Generated */,
+				733EFC9F2BECB456000AF4D8 /* Localizable.strings */,
+				733EFCA22BECB8BB000AF4D8 /* swiftgen.yml */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		733EFC9E2BECB446000AF4D8 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				733EFCB52BECC245000AF4D8 /* Fonts.swift */,
+				733EFCA92BECBA48000AF4D8 /* Assets.swift */,
+				733EFCAA2BECBA48000AF4D8 /* LocalizedStrings.swift */,
+				733EFCAB2BECBA48000AF4D8 /* Lottie.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		733EFCA12BECB7EB000AF4D8 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				733EFCA72BECB9F1000AF4D8 /* scan_animation.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		733EFCA42BECB9BC000AF4D8 /* SwiftgenTemplates */ = {
+			isa = PBXGroup;
+			children = (
+				733EFCA52BECB9CE000AF4D8 /* Lottie.stencil */,
+			);
+			path = SwiftgenTemplates;
+			sourceTree = "<group>";
+		};
+		733EFCB22BECC205000AF4D8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				733EFCB32BECC20E000AF4D8 /* Urbanist-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +152,9 @@
 			dependencies = (
 			);
 			name = Plants;
+			packageProductDependencies = (
+				733EFCB02BECBB5B000AF4D8 /* Lottie */,
+			);
 			productName = Plants;
 			productReference = 733EFC862BECB378000AF4D8 /* Plants.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +183,9 @@
 				Base,
 			);
 			mainGroup = 733EFC7D2BECB378000AF4D8;
+			packageReferences = (
+				733EFCAF2BECBB5B000AF4D8 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			productRefGroup = 733EFC872BECB378000AF4D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +200,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				733EFCB82BECC392000AF4D8 /* .gitignore in Resources */,
+				733EFCB42BECC225000AF4D8 /* Urbanist-VariableFont_wght.ttf in Resources */,
 				733EFC962BECB37A000AF4D8 /* LaunchScreen.storyboard in Resources */,
+				733EFCA02BECB456000AF4D8 /* Localizable.strings in Resources */,
 				733EFC932BECB37A000AF4D8 /* Assets.xcassets in Resources */,
-				733EFC912BECB379000AF4D8 /* Main.storyboard in Resources */,
+				733EFCA32BECB8BC000AF4D8 /* swiftgen.yml in Resources */,
+				733EFCA62BECB9CE000AF4D8 /* Lottie.stencil in Resources */,
+				733EFCA82BECB9F1000AF4D8 /* scan_animation.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +218,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				733EFCB62BECC245000AF4D8 /* Fonts.swift in Sources */,
 				733EFC8E2BECB378000AF4D8 /* ViewController.swift in Sources */,
 				733EFC8A2BECB378000AF4D8 /* AppDelegate.swift in Sources */,
+				733EFCAE2BECBA48000AF4D8 /* Lottie.swift in Sources */,
+				733EFCAC2BECBA48000AF4D8 /* Assets.swift in Sources */,
 				733EFC8C2BECB378000AF4D8 /* SceneDelegate.swift in Sources */,
+				733EFCAD2BECBA48000AF4D8 /* LocalizedStrings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		733EFC8F2BECB379000AF4D8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				733EFC902BECB379000AF4D8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		733EFC942BECB37A000AF4D8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -297,9 +373,8 @@
 				INFOPLIST_FILE = Plants/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,9 +400,8 @@
 				INFOPLIST_FILE = Plants/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,6 +437,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		733EFCAF2BECBB5B000AF4D8 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		733EFCB02BECBB5B000AF4D8 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 733EFCAF2BECBB5B000AF4D8 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 733EFC7E2BECB378000AF4D8 /* Project object */;
 }
