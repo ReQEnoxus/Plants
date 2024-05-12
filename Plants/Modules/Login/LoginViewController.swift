@@ -12,6 +12,7 @@ class LoginViewController: UIViewController {
     
     private enum Constants {
         static let minimalFieldLength: Int = 3
+        static let minimalPasswordLength: Int = 8
     }
     
     private let contentView = LoginView()
@@ -49,7 +50,7 @@ class LoginViewController: UIViewController {
     private func updateState() {
         let email = contentView.loginField.value ?? ""
         let password = contentView.passwordField.value ?? ""
-        contentView.loginButton.isEnabled = email.count >= Constants.minimalFieldLength && password.count >= Constants.minimalFieldLength
+        contentView.loginButton.isEnabled = email.count >= Constants.minimalFieldLength && password.count >= Constants.minimalPasswordLength
     }
     
     @objc private func handleLoginButtonTap() {

@@ -11,6 +11,7 @@ final class SignupViewController: UIViewController {
     
     private enum Constants {
         static let minimalFieldLength: Int = 3
+        static let minimalPasswordLength: Int = 3
     }
     
     private let contentView = SignupView()
@@ -64,7 +65,7 @@ final class SignupViewController: UIViewController {
         let confirmedPassword = contentView.passwordConfirmField.value ?? ""
         
         contentView.signupButton.isEnabled = email.count >= Constants.minimalFieldLength 
-        && password.count >= Constants.minimalFieldLength
+        && password.count >= Constants.minimalPasswordLength
         && password == confirmedPassword
     }
     
