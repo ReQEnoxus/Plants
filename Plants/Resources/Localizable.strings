@@ -13,9 +13,17 @@
 "Auth.Password.title" = "Пароль";
 "Auth.Password.placeholder" = "Введите пароль...";
 "Auth.PasswordAgain.title" = "Подтверждение";
-"Auth.Password.placeholder" = "Подтвердите пароль...";
+"Auth.PasswordAgain.placeholder" = "Подтвердите пароль...";
 "Auth.LoginButton.title" = "Войти";
 "Auth.RegisterButton.title" = "Зарегистрироваться";
+"Auth.GoToRegister.prompt" = "У вас еще нет аккаунта? Зарегистрироваться";
+"Auth.GoToLogin.prompt" = "Уже есть аккаунт? Войти";
+"Auth.LoginError.title" = "Вход не удался";
+"Auth.LoginError.subtitle" = "Неправильный логин или пароль";
+"Auth.SignupError.title" = "Регистрация не удалась";
+"Auth.SignupError.subtitle" = "Повторите попытку позже";
+"Auth.Validation.invalidEmail" = "Недействительный адрес!";
+"Auth.Signup.title" = "Регистрация";
 
 // MARK: - Scanner
 
@@ -26,3 +34,9 @@
 "Scanner.Result.title" = "Результат";
 "Scanner.Result.plantSpecies" = "Вид растения:\n%@";
 "Scanner.Result.plantDisease" = "Заболевание:\n%@";
+"Scanner.Result.downloadPhoto" = "Скачать фото";
+
+"Scanner.CameraAccess.title" = "Камера";
+"Scanner.CameraAccess.description" = "Для того чтобы разрешить доступ к камере перейдите в настройки.";
+"Scanner.CameraAccess.settings" = "Настройки";
+"Scanner.CameraAccess.cancel" = "Отмена";

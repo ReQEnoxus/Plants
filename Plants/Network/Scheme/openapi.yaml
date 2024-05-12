@@ -1,0 +1,229 @@
+openapi: 3.1.0
+info:
+  title: FastAPI
+  version: 0.1.0
+servers:
+- url: https://sirosh.dev/nn_project/api
+paths:
+  /user/login:
+    post:
+      summary: Login For Access Token
+      operationId: login_for_access_token_user_login_post
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserLogin'
+        required: true
+      responses:
+        "200":
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Token'
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /user/register:
+    post:
+      summary: Register For Access Token
+      operationId: register_for_access_token_user_register_post
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserRegister'
+        required: true
+      responses:
+        "200":
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Token'
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /user/me/:
+    get:
+      summary: Read Users Me
+      operationId: read_users_me_user_me__get
+      responses:
+        "200":
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+      security:
+      - APIKeyHeader: []
+  /user/me/history/:
+    get:
+      summary: Read Own Items
+      operationId: read_own_items_user_me_history__get
+      responses:
+        "200":
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                title: Response Read Own Items User Me History  Get
+                items:
+                  $ref: '#/components/schemas/History'
+      security:
+      - APIKeyHeader: []
+  /image/{filename}:
+    get:
+      summary: Get Image
+      operationId: get_image_image__filename__get
+      parameters:
+      - name: filename
+        in: path
+        required: true
+        style: simple
+        explode: false
+        schema:
+          title: Filename
+      responses:
+        "200":
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /analyze/:
+    post:
+      summary: Analyze
+      operationId: analyze_analyze__post
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Body_analyze_analyze__post'
+        required: true
+      responses:
+        "200":
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/History'
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+      security:
+      - APIKeyHeader: []
+components:
+  schemas:
+    Body_analyze_analyze__post:
+      title: Body_analyze_analyze__post
+      required:
+      - file
+      properties:
+        file:
+          title: File
+          type: string
+          format: binary
+    HTTPValidationError:
+      title: HTTPValidationError
+      properties:
+        detail:
+          title: Detail
+          items:
+            $ref: '#/components/schemas/ValidationError'
+    History:
+      title: History
+      required:
+      - created
+      - decease_type
+      - img_path
+      - label
+      - plant_type
+      properties:
+        label:
+          title: Label
+        decease_type:
+          title: Decease Type
+        plant_type:
+          title: Plant Type
+        img_path:
+          title: Img Path
+        created:
+          title: Created
+    Token:
+      title: Token
+      required:
+      - access_token
+      - token_type
+      properties:
+        access_token:
+          title: Access Token
+        token_type:
+          title: Token Type
+    User:
+      title: User
+      required:
+      - disabled
+      - username
+      properties:
+        username:
+          title: Username
+        disabled:
+          title: Disabled
+    UserLogin:
+      title: UserLogin
+      required:
+      - password
+      - username
+      properties:
+        username:
+          title: Username
+        password:
+          title: Password
+    UserRegister:
+      title: UserRegister
+      required:
+      - password
+      - username
+      properties:
+        username:
+          title: Username
+        password:
+          title: Password
+    ValidationError:
+      title: ValidationError
+      required:
+      - loc
+      - msg
+      - type
+      properties:
+        loc:
+          title: Location
+          items:
+            anyOf:
+            - {}
+            - {}
+        msg:
+          title: Message
+        type:
+          title: Error Type
+  securitySchemes:
+    APIKeyHeader:
+      type: apiKey
+      name: Authorization
+      in: header

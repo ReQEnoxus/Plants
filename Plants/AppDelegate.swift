@@ -14,6 +14,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         FontFamily.registerAllCustomFonts()
+        UINavigationBar.appearance().backIndicatorImage = Assets.Icons.arrowLeft.image
+        UINavigationBar.appearance().backIndicatorTransitionMaskImage = Assets.Icons.arrowLeft.image
         return true
     }
 

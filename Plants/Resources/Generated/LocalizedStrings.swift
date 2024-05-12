@@ -18,23 +18,53 @@ internal enum L10n {
       /// Логин
       internal static let title = L10n.tr("Localizable", "Auth.Email.title")
     }
+    internal enum GoToLogin {
+      /// Уже есть аккаунт? Войти
+      internal static let prompt = L10n.tr("Localizable", "Auth.GoToLogin.prompt")
+    }
+    internal enum GoToRegister {
+      /// У вас еще нет аккаунта? Зарегистрироваться
+      internal static let prompt = L10n.tr("Localizable", "Auth.GoToRegister.prompt")
+    }
     internal enum LoginButton {
       /// Войти
       internal static let title = L10n.tr("Localizable", "Auth.LoginButton.title")
     }
+    internal enum LoginError {
+      /// Неправильный логин или пароль
+      internal static let subtitle = L10n.tr("Localizable", "Auth.LoginError.subtitle")
+      /// Вход не удался
+      internal static let title = L10n.tr("Localizable", "Auth.LoginError.title")
+    }
     internal enum Password {
-      /// Подтвердите пароль...
+      /// Введите пароль...
       internal static let placeholder = L10n.tr("Localizable", "Auth.Password.placeholder")
       /// Пароль
       internal static let title = L10n.tr("Localizable", "Auth.Password.title")
     }
     internal enum PasswordAgain {
+      /// Подтвердите пароль...
+      internal static let placeholder = L10n.tr("Localizable", "Auth.PasswordAgain.placeholder")
       /// Подтверждение
       internal static let title = L10n.tr("Localizable", "Auth.PasswordAgain.title")
     }
     internal enum RegisterButton {
       /// Зарегистрироваться
       internal static let title = L10n.tr("Localizable", "Auth.RegisterButton.title")
+    }
+    internal enum Signup {
+      /// Регистрация
+      internal static let title = L10n.tr("Localizable", "Auth.Signup.title")
+    }
+    internal enum SignupError {
+      /// Повторите попытку позже
+      internal static let subtitle = L10n.tr("Localizable", "Auth.SignupError.subtitle")
+      /// Регистрация не удалась
+      internal static let title = L10n.tr("Localizable", "Auth.SignupError.title")
+    }
+    internal enum Validation {
+      /// Недействительный адрес!
+      internal static let invalidEmail = L10n.tr("Localizable", "Auth.Validation.invalidEmail")
     }
   }
 
@@ -43,12 +73,24 @@ internal enum L10n {
       /// Проанализировать
       internal static let title = L10n.tr("Localizable", "Scanner.Analyze.title")
     }
+    internal enum CameraAccess {
+      /// Отмена
+      internal static let cancel = L10n.tr("Localizable", "Scanner.CameraAccess.cancel")
+      /// Для того чтобы разрешить доступ к камере перейдите в настройки.
+      internal static let description = L10n.tr("Localizable", "Scanner.CameraAccess.description")
+      /// Настройки
+      internal static let settings = L10n.tr("Localizable", "Scanner.CameraAccess.settings")
+      /// Камера
+      internal static let title = L10n.tr("Localizable", "Scanner.CameraAccess.title")
+    }
     internal enum Loading {
       /// Идет обработка.
       /// Подождите...
       internal static let message = L10n.tr("Localizable", "Scanner.Loading.message")
     }
     internal enum Result {
+      /// Скачать фото
+      internal static let downloadPhoto = L10n.tr("Localizable", "Scanner.Result.downloadPhoto")
       /// Заболевание:
       /// %@
       internal static func plantDisease(_ p1: Any) -> String {
