@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		732B09822BF89A9F00ED45AF /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732B09812BF89A9F00ED45AF /* UIImage+Extensions.swift */; };
 		733EFC8A2BECB378000AF4D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733EFC892BECB378000AF4D8 /* AppDelegate.swift */; };
 		733EFC8C2BECB378000AF4D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733EFC8B2BECB378000AF4D8 /* SceneDelegate.swift */; };
 		733EFC8E2BECB378000AF4D8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733EFC8D2BECB378000AF4D8 /* LoginViewController.swift */; };
@@ -79,6 +80,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		732B09812BF89A9F00ED45AF /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		733EFC862BECB378000AF4D8 /* Plants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		733EFC892BECB378000AF4D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		733EFC8B2BECB378000AF4D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -268,6 +270,7 @@
 				733EFCCB2BECE3A4000AF4D8 /* CALayer+Extensions.swift */,
 				733EFCD42BED0F34000AF4D8 /* NSAttributedStringKey+Extensions.swift */,
 				733EFCF42BEF5D5A000AF4D8 /* String+Extensions.swift */,
+				732B09812BF89A9F00ED45AF /* UIImage+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -540,6 +543,7 @@
 				733EFD022BEFB306000AF4D8 /* ScannerService.swift in Sources */,
 				733EFCF12BEE9253000AF4D8 /* SignupView.swift in Sources */,
 				733EFCE42BEE876F000AF4D8 /* AuthService.swift in Sources */,
+				732B09822BF89A9F00ED45AF /* UIImage+Extensions.swift in Sources */,
 				733EFCDE2BEE2F08000AF4D8 /* LinkAction.swift in Sources */,
 				733EFCAC2BECBA48000AF4D8 /* Assets.swift in Sources */,
 				733EFCF52BEF5D5A000AF4D8 /* String+Extensions.swift in Sources */,

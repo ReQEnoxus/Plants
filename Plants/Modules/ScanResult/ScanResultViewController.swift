@@ -46,7 +46,7 @@ final class ScanResultViewController: UIViewController {
     }
     
     private func setupContentView() {
-        contentView.resultImage = UIImage(data: scanResult.photo)
+        contentView.resultImage = UIImage(data: scanResult.photo)?.withText(text: scanResult.plantDisease)
         contentView.plantSpeciesLabel.text = L10n.Scanner.Result.plantSpecies(scanResult.plantSpecies)
         contentView.plantDiseaseLabel.text = L10n.Scanner.Result.plantDisease(scanResult.plantDisease)
     }
